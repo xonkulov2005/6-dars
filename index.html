@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="light-mode">
+    <header id="header">
+      <div class="header-container container">
+        <img
+          class="logo-image"
+          src="./images/Logo.png"
+          alt="Site Logo"
+          width="150"
+          height="40"
+        />
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Categories</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#"
+                >About Us
+                <img
+                  class="down-icon"
+                  src="./images/down.svg"
+                  alt=""
+                  width="24"
+                  height="14"
+              /></a>
+              <ul class="hidden-nav">
+                <li class="sitenav__item__inner">
+                  <a class="sitenav__link__inner" href="#">News</a>
+                  <a class="sitenav__link__inner" href="#">Careers</a>
+                  <a class="sitenav__link__inner" href="#">Locations</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#"
+                >Help center
+                <img
+                  class="down-icon"
+                  src="./images/down.svg"
+                  alt=""
+                  width="24"
+                  height="14"
+              /></a>
+              <ul class="hidden-nav">
+                <li class="sitenav__item__inner">
+                  <a class="sitenav__link__inner" href="#">FAQ</a>
+                  <a class="sitenav__link__inner" href="#">Contact us</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <a
+          class="header__phone-number"
+          href="tel:+1 855 420 0000"
+          target="_blank"
+          >+1 855 420 0000
+        </a>
+        <button id="mode-toggler" class="mode-btn">
+          <img
+            id="mode-btn__img"
+            src="./images/Sun.svg"
+            alt="Sun image"
+            width="16"
+            height="16"
+          />
+        </button>
+        <a class="header__btn btn" href="#"
+          >Login
+          <img src="./images/Login.png" alt="" width="22" height="22" />
+        </a>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__container container">
+          <h1 class="hero__image-title">Compact cars</h1>
+          <p class="hero__image-text">
+            Rent cars as you are comfortable and where you are
+            <br />comfortable.
+          </p>
+
+          <ul class="hero__list">
+            <li class="hero__item">
+              <button class="hero__item__btn"></button>
+            </li>
+            <li class="hero__item">
+              <button class="hero__item__btn"></button>
+            </li>
+          </ul>
+          <input
+            class="hero__bottom__input"
+            type="text"
+            class="search-box"
+            placeholder="Find the car of your dreams"
+          />
+        </div>
+      </section>
+      <div class="cars-container container">
+        <h2 class="cars-container__title">Choose the car of your dreams</h2>
+        <p class="cars-container__text">
+          We provide our customers with the most incredible driving emotions.
+          <br />
+          That is why there are only world-class cars in our fleet
+        </p>
+        <div class="cars__buttons">
+          <button class="cars__btn-first">Compact</button>
+          <button class="cars__btn">Sports cars</button>
+          <button class="cars__btn">Vans</button>
+        </div>
+        <div class="cars__grid">
+          <div class="cars-info">
+            <h3>Ford Fiesta</h3>
+            <p>Economy Car</p>
+            <img
+              class="cars-image"
+              src="./images/ford.svg"
+              alt=""
+              width="387"
+              height="220"
+            />
+          </div>
+          <div class="cars-info">
+            <h3>Nissan Versa</h3>
+            <p>Compact Car</p>
+            <img
+              class="cars-image"
+              src="./images/nissan.png"
+              alt=""
+              width="387"
+              height="220"
+            />
+          </div>
+          <div class="cars-info">
+            <h3>Toyota Corolla</h3>
+            <p>Mid-size Car</p>
+            <img
+              class="cars-image"
+              src="./images/toyota.png"
+              alt=""
+              width="387"
+              height="220"
+            />
+          </div>
+          <div class="cars-info">
+            <h3>Nissan Rogue</h3>
+            <p>Mid-size SUV</p>
+            <img
+              class="cars-image"
+              src="./images/rouge.png"
+              alt=""
+              width="387"
+              height="220"
+            />
+          </div>
+          <div class="cars-info">
+            <h3>Chevy Traverse</h3>
+            <p>Full-size SUV</p>
+            <img
+              class="cars-image"
+              src="./images/chevy.png"
+              alt=""
+              width="387"
+              height="220"
+            />
+          </div>
+          <div class="cars-info">
+            <h3>Nissan Altima</h3>
+            <p>Full-size Car</p>
+            <img
+              class="cars-image"
+              src="./images/altima.png"
+              alt=""
+              width="387"
+              height="220"
+            />
+          </div>
+        </div>
+        <button class="cars__btn-second">View all cars</button>
+      </div>
+      <div class="community">
+        <div class="community__container">
+          <div class="community__inner-container">
+            <div class="google">
+              <ul>
+                <li class="google__list">
+                  <img
+                    src="./images/Google.png"
+                    alt="google logo"
+                    width="20"
+                    height="20"
+                  /><a
+                    class="google__item"
+                    href="https://google.com"
+                    target="_blank"
+                    >From Google</a
+                  >
+                </li>
+              </ul>
+              <h3 class="google__title">Hear what the community is saying</h3>
+              <hr class="google__divider" />
+              <p class="google__text">More interesting reviews on Instagram</p>
+              <a class="instagram__btn" href="https://instagram.com"
+                >Instagram</a
+              >
+            </div>
+          </div>
+          <div class="google__cta">
+            <div class="google__cta__container">
+              <div class="google__cta__inner">
+                <img class="ava-img" src="./images/Ava.png" alt="" />
+                <ul class="cta__inner">
+                  <li>
+                    <h4>Savannah Nguyen</h4>
+                    <a
+                      class="email-address"
+                      href="https://savannahnguyen@gmail.com"
+                      >savannahnguyen@gmail.com</a
+                    >
+                  </li>
+                </ul>
+                <img src="./images/Google.png" alt="" width="42" height="42" />
+              </div>
+              <p class="cta__text">
+                Sagittis sed tortor, elementum vitae varius sodales consectetur.
+                Vitae arcu ut morbi bibendum ullamcorper feugiat. Venenatis
+                hendrerit cursus egestas sit ornare nunc vulputate aliquam
+                sapien. Pulvinar nunc consectetur nibh consectetur mollis mauris
+                est mauris amet. Sed hac vehicula id et dui morbi quam pulvinar
+                condimentum. Senectus sed varius interdum nunc, arcu vulputate
+                massa.
+              </p>
+              <hr class="cta__divider" />
+              <div class="rating">
+                <h4>Star rating:</h4>
+                <img src="./images/stars.png" alt="" />
+              </div>
+            </div>
+            <div class="cta__items">
+              <hr class="cta__inner__divider" />
+              <ul class="cta__list">
+                <li class="hero__item">
+                  <button class="hero__item__btn"></button>
+                </li>
+                <li class="hero__item">
+                  <button class="hero__item__btn"></button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="logos-container container">
+        <h4 class="logos__text">More than 50 brands of cars</h4>
+        <img class="logos__img" src="./images/Brands.svg" alt="" />
+      </div>
+
+      <div class="service-container container">
+        <div class="service__list">
+          <h2 class="service__title">Unparalleled service</h2>
+          <p class="service__text">
+            Whether you are looking for Newark Airport car rental, an insurance
+            replacement vehicle or <br />
+            minivan to take on vacation Car rental has it all.
+          </p>
+        </div>
+        <div class="service__grid">
+          <div class="grid__item">
+            <h3 class="grid__item__title">
+              Book online, <br />
+              pay online
+            </h3>
+            <p class="grid__item__text">
+              Complete the booking process A-Z, with our <br />
+              easy online system
+            </p>
+          </div>
+          <div class="grid__item">
+            <h3 class="grid__item__title">Guaranteed car reservation</h3>
+            <p class="grid__item__text">
+              When you book with Car rental, you can be <br />
+              confident your car will be waiting for you
+            </p>
+          </div>
+          <div class="grid__item">
+            <h3 class="grid__item__title">Unparalleled customer service</h3>
+            <p class="grid__item__text">
+              We're here to help. We pride ourselves in <br />
+              our customer service
+            </p>
+          </div>
+          <div class="grid__item">
+            <h3 class="grid__item__title">No reservation or booking fees</h3>
+            <p class="grid__item__text">
+              No cancellation fees if cancelled 24 hours <br />
+              prior to booking time
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="master__info">
+        <div class="master__info__container container">
+          <div class="master__info__cta">
+            <h3 class="master__info__title">Car rental keeps you safe</h3>
+            <p class="grid__item__text">
+              The safety of our employees and renters is our number one
+              priority. In addition to being confident your vehicle is cleaned
+              and sanitized every time you rent, you can also feel confident
+              that we will take every opportunity to enhance the health and
+              safety measures currently practiced in our operations.
+            </p>
+          </div>
+          <div class="master__info__grid">
+            <div class="master__info__grid__item">
+              Every car is thoroughly sanitized and cleaned
+            </div>
+            <div class="master__info__grid__item">
+              All of our employees wear masks
+            </div>
+            <div class="master__info__grid__item">
+              We stay up to date with all protocol from the CDC
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="site-footer__container container">
+        <div class="site__logo__container">
+          <img
+            class="footer__logo-image"
+            src="./images/Logo.png"
+            alt="Site Logo"
+            width="150"
+            height="40"
+          />
+          <p class="logo__text">
+            Car rental offers a wide range of cars available for rent in Newark
+            EWR Airport NJ. We pride ourselves in our customer service, and
+            hassle-free renting experience.
+          </p>
+        </div>
+        <div class="site-footer__list">
+          <ul class="footer__list__first">
+            <li>
+              <a class="footer__list__item" href="#">Main</a>
+              <a class="footer__list__text" href="#">My Bookings</a>
+              <a class="footer__list__text" href="#">Reservation</a>
+            </li>
+          </ul>
+          <ul class="footer__list__second">
+            <li>
+              <a class="footer__list__item" href="#">Categories </a>
+              <a class="footer__list__text" href="#">Compact</a>
+              <a class="footer__list__text" href="#">Sports cars</a>
+              <a class="footer__list__text" href="#">Vans</a>
+            </li>
+          </ul>
+          <ul class="footer__list__thirt">
+            <li>
+              <a class="footer__list__item" href="#">Company</a>
+              <a class="footer__list__text" href="#">About us</a>
+              <a class="footer__list__text" href="#">Careers</a>
+              <a class="footer__list__text" href="#">News</a>
+              <a class="footer__list__text" href="#">Contact us</a>
+            </li>
+          </ul>
+          <ul class="footer__list__fourth">
+            <li>
+              <a class="footer__list__item" href="#">Our Locations </a>
+              <a class="footer__list__text" href="#">
+                2118 Thornridge Cir. Syracuse</a
+              >
+              <a class="footer__list__text" href="#">
+                4140 Parker Rd. Allentown</a
+              >
+              <a class="footer__list__text" href="#"> 4517 Washington Ave.</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__cta container">
+        <hr class="footer__cta__divider" />
+        <div class="footer__cta__inner">
+          <div>
+            <p>© 2022 Car rental <br />Terms & Conditions</p>
+          </div>
+          <div class="socials__list">
+            <ul class="socials__list__item">
+              <li>
+                <a class="footer__list__item" href="#">Contact</a>
+                <p class="footer__list__text">+1 855 420 0000</p>
+                <p class="footer__list__text">carrental@gmail.com</p>
+              </li>
+            </ul>
+            <ul class="socials__list__item">
+              <li>
+                <a class="footer__list__item" href="#">Hours of operation </a>
+                <p class="footer__list__text">8:00 - 21:00 Mon-Sat</p>
+                <p class="footer__list__text">9:00 - 15:00 Sundays</p>
+              </li>
+            </ul>
+            <ul class="socials__list__item">
+              <a class="footer__list__item" href="#">Social network</a>
+              <li>
+                <a
+                  class="socials__icon"
+                  href="https://instagram.com"
+                  target="_blank"
+                  ><img src="./images/socials.svg" alt=""
+                /></a>
+                <a
+                  class="socials__icon"
+                  href="https://twitter.com"
+                  target="_blank"
+                  ><img src="./images/twiter.svg" alt=""
+                /></a>
+                <a
+                  class="socials__icon"
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  ><img src="./images/facebook.svg" alt=""
+                /></a>
+                <a
+                  class="socials__icon"
+                  href="https://watsapp.com"
+                  target="_blank"
+                  ><img src="./images/watsapp.svg" alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <a id="top-btn" href="#header"
+            ><img src="./images/Arrow up.svg" alt=""
+          /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

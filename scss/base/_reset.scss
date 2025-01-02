@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+:root {
+  @include theme(light);
+}
+
+body {
+  font-family: $main-ff;
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  background-color: var(--background-color);
+  @include makeItCenter;
+}
+
+body.light-mode {
+  @include theme(dark);
+}
+
+h1 {
+  @include fontSetting(3.6rem, 1.2, 600);
+}
+
+h2 {
+  @include fontSetting(3.6rem, 1.2, 600);
+}
+
+h3 {
+  @include fontSetting(3.2rem, 1.2, 500);
+}
+
+h4 {
+  @include fontSetting(1.6rem, 1.2, 400);
+}
+
+img {
+  display: flex;
+  object-fit: cover;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
+.main {
+  flex-grow: 1;
+}
